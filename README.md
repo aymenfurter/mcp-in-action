@@ -1,4 +1,4 @@
-# 🤖 MCP in Action
+# MCP in Action
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Azure](https://img.shields.io/badge/azure-AI%20Foundry-0078D4.svg)](https://azure.microsoft.com/products/ai-foundry)
@@ -7,7 +7,7 @@
 
 > Build AI agents with the Model Context Protocol (MCP) — an open standard for connecting language models to external tools.
 
-## 🚀 Quick Start
+## Quick Start
 
 **Prerequisites:** Azure subscription with AI Foundry project • Python 3.10+ • Docker • Azure CLI
 
@@ -124,22 +124,6 @@ Supports: English, German, Japanese, Spanish, French, Italian, Portuguese, Chine
 
 ---
 
-## 📁 Project Structure
-
-```
-mcp-in-action/
-├── 📓 1-tools.ipynb              # ReAct → Native → MCP evolution
-├── 📓 2-custom-mcps.ipynb        # Build FastMCP servers
-├── 📓 3-browser-automation.ipynb # Browser, code, RAG tools
-├── 📓 4-secure-mcp.ipynb         # OAuth2 + APIM + Logic Apps
-├── 📓 5-prompt-shields.ipynb     # Injection attacks & defenses
-├── 📂 lib/
-│   └── search_functions.py       # Helper functions (notebook 1)
-├── 📝 system_prompt.prompt.yml   # ReAct prompt template
-├── 📋 requirements.txt           # Python dependencies
-└── 📖 README.md                  # This file
-```
-
 ## 🔗 Resources
 
 **MCP**
@@ -161,16 +145,4 @@ mcp-in-action/
 
 ## 📝 License
 
-MIT License - Educational purposes only. Review [Responsible AI Guidelines](https://learn.microsoft.com/azure/ai-foundry/responsible-ai/) before any AI production deployment.
-
----
-
-## 🎓 Next Steps
-
-1. **Understand** → Run `1-tools.ipynb` to see function calling evolution
-2. **Build** → Create custom server in `2-custom-mcps.ipynb`
-3. **Explore** → Try built-in tools in `3-browser-automation.ipynb`
-4. **Deploy** → Secure production setup in `4-secure-mcp.ipynb`
-5. **Defend** → Learn safety systems in `5-prompt-shields.ipynb`
-
----
+MIT License - Educational purposes only.
