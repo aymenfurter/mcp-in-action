@@ -50,7 +50,6 @@ From string parsing to decoupled servers.
 Build a Quality Management System with FastMCP.
 
 - **FastMCP Framework** - Python decorator pattern for defining tools
-- **Three Connection Types** - stdio (`MCPStdioTool`), HTTP/SSE (`MCPStreamableHTTPTool`), WebSocket (`MCPWebsocketTool`)
 - **Azure Dev Tunnels** - Public endpoint for local development
 - **Natural Language Interface** - Operators log defects via chat
 
@@ -70,7 +69,7 @@ Built-in Azure AI Foundry tools.
 ---
 
 ### [4️⃣ Production Deployment](./4-secure-mcp.ipynb)
-Secure MCP server with OAuth2 and network isolation.
+Secure MCP server with OAuth2, APIM and network isolation.
 
 ```
 User → Agent → APIM (OAuth2) → Container Apps (IP restricted) → MCP Server
@@ -90,8 +89,6 @@ User → Agent → APIM (OAuth2) → Container Apps (IP restricted) → MCP Serv
 | No shields | Model only | ❌ Vulnerable to injection |
 | With shields | Model + Content Safety + Metaprompt | ✅ Attack detected |
 | + Human approval | + Application logic (user confirmation) | ✅ Defense-in-depth |
-
-**Critical:** Never pass PII or credentials to untrusted MCP servers. Use separate agents for public vs. private contexts.
 
 ---
 
