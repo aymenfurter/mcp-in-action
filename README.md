@@ -142,20 +142,16 @@ mcp-in-action/
 
 ## 🔗 Resources
 
-**MCP & Agent Framework**
-- [Model Context Protocol on Microsoft Learn](https://learn.microsoft.com/agent-framework/user-guide/model-context-protocol/) - Overview & third-party considerations
-- [Using MCP Tools with Agents](https://learn.microsoft.com/agent-framework/user-guide/model-context-protocol/using-mcp-tools) - Step-by-step guide
-- [Using MCP with Foundry Agents](https://learn.microsoft.com/agent-framework/user-guide/model-context-protocol/using-mcp-with-foundry-agents) - Hosted tools & approvals
+**MCP**
+- [MCP curriculum by Microsoft](https://github.com/microsoft/mcp-for-beginners) - Learn MCP End-To-End
 
 **Azure AI Foundry**
 - [Tools in Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/how-to/tools/overview) - Built-in tools, invocation patterns
 - [Microsoft Learn MCP Server](https://learn.microsoft.com/training/support/mcp) - Public documentation API
-- [Logic Apps as MCP Servers](https://learn.microsoft.com/azure/logic-apps/set-up-model-context-protocol-server-standard) - Workflows, auth, monitoring
 
 **Safety & Security**
 - [Prompt Shields](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/content-filter-prompt-shields) - Injection detection
 - [Content Filtering](https://learn.microsoft.com/azure/ai-foundry/concepts/content-filtering) - Categories & severity levels
-- [Microsoft 365 Copilot Security](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-ai-security) - Defense-in-depth practices
 
 **Community**
 - [MCP Specification](https://spec.modelcontextprotocol.io/) - Official protocol docs
