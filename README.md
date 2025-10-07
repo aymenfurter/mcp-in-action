@@ -107,17 +107,7 @@ User → Agent → APIM (OAuth2) → Container Apps (IP restricted) → MCP Serv
 
 Detect injection attacks by analyzing:
 - **User prompts** - Attempts to change system rules, role-play personas, encoding tricks
-- **Documents** - Malicious instructions hidden in PDFs, images, or grounding data
-
-Categories: Manipulated content • Unauthorized access • Information gathering • Availability disruption • Fraud • Malware
-
-### Content Filtering
-
-Classifies inputs/outputs into categories: **Hate** • **Sexual** • **Violence** • **Self-harm**
-
-Severity levels: `Safe` → `Low` → `Medium` → `High`
-
-Supports: English, German, Japanese, Spanish, French, Italian, Portuguese, Chinese
+- **Indirect** - Malicious instructions hidden in PDFs, images, or other grounding data
 
 ---
 
