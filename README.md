@@ -161,7 +161,7 @@ mcp-in-action/
 
 ## 📝 License
 
-MIT License - Educational purposes only. Review [Microsoft API Terms of Use](https://www.microsoft.com/legal/terms-of-use) and [Responsible AI Guidelines](https://learn.microsoft.com/azure/ai-foundry/responsible-ai/) before production deployment.
+MIT License - Educational purposes only. Review [Responsible AI Guidelines](https://learn.microsoft.com/azure/ai-foundry/responsible-ai/) before any AI production deployment.
 
 ---
 
