@@ -92,25 +92,6 @@ User → Agent → APIM (OAuth2) → Container Apps (IP restricted) → MCP Serv
 
 ---
 
-## 🛡️ Responsible AI & Safety
-
-### Defense-in-Depth Strategy
-
-![Mitigation Layers](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/media/mitigation-layers.png)
-
-1. **Model** - Responsible AI-aligned (GPT-4 with RLHF)
-2. **Safety System** - Azure AI Content Safety (prompt shields, content filtering)
-3. **Application** - Metaprompting + human approval workflows
-4. **Positioning** - User education about capabilities/limitations
-
-### Prompt Shields
-
-Detect injection attacks by analyzing:
-- **User prompts** - Attempts to change system rules, role-play personas, encoding tricks
-- **Indirect** - Malicious instructions hidden in PDFs, images, or other grounding data
-
----
-
 ## 🔗 Resources
 
 **MCP**
