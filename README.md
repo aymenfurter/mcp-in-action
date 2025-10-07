@@ -5,7 +5,7 @@
 [![MCP](https://img.shields.io/badge/MCP-protocol-green.svg)](https://spec.modelcontextprotocol.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Build AI agents with the Model Context Protocol (MCP) — an open standard for connecting language models to external tools through consistent, scalable integrations.
+> Build AI agents with the Model Context Protocol (MCP) — an open standard for connecting language models to external tools.
 
 ## 🚀 Quick Start
 
