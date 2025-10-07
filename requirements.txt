@@ -1,0 +1,9 @@
+openai
+requests
+beautifulsoup4
+markdownify
+python-dotenv
+pyyaml
+azure-ai-projects==1.1.0b3
+azure-identity
+azure-ai-agents==1.2.0b3
